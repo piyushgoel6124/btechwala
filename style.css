@@ -272,3 +272,45 @@ align-items: center center;
 margin: 0%;
 padding: 0%;
 }
+
+
+
+.table-box{
+    margin: 50px auto;
+
+}
+.table-row{
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    font-family: roboto;
+    background: transparent;
+    padding: 12px auto;
+    color: #555;
+    font-size: 13px;
+    box-shadow: 0 1px 4px rgba(0, 0, 50, 0.5);
+}
+.table-cell{
+    display: table-cell;
+    width: 30%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+}
+.name{
+    width: 70%;
+    text-align: left;
+    padding: 10px;
+}
+.link{
+    width: 10%;
+}
+.head{
+    background: #8665f7;
+    box-shadow: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 1000;
+}
+
