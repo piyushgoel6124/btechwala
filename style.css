@@ -1,16 +1,20 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
     scroll-behavior: smooth;
 }
+
+
 h1{
     font-size: 50px;
     text-align: center;
     margin: 20px;
     padding: 20px;
+    vertical-align: middle;
     text-transform: uppercase;
     font-weight: bolder;
+    color: white;
+    font-family: sans-serif;
     text-decoration: underline;
 }
 .banner{
@@ -62,6 +66,7 @@ h1{
 }
 .content{
     width: 100%;
+
     position: absolute;
     top: 10%;
     transform: translate(-50);
@@ -83,6 +88,10 @@ h1{
     font-weight: 100;
     line-height: 25px;
 
+}
+.btn1{
+    width: 10%;
+    
 }
 button{
     width: 200px;
@@ -119,7 +128,7 @@ button:hover{
     z-index: 10;
     transform: scale(1.15);
     background-color: #009688;
-    transition: 1s; 
+    transition: 0s; 
 }
 .banner1{
     width: 100%;
@@ -141,12 +150,12 @@ button:hover{
 }
 .banner3{
     width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.073),rgba(0, 0, 0, 0.982)),url(pic/electrical.jpg);
+    height: 100%;
+    background-image: url('pic/electrical.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+    background-attachment: local;
+    background-position: center bottom;
 }.bannerses{
     width: 100%;
     height: 100vh;
@@ -273,8 +282,84 @@ margin: 0%;
 padding: 0%;
 }
 
+.btnlink{
+    width: 80%;
+    max-width: 100px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    border-color: #8665f7;
+    padding: 0 0;
+    margin: 0 0;
+    background: #8665f7;
+    font-size: 15px;
 
+}
+.btnlink:hover{
+    z-index: 10;
+    transform: scale(1.12);
+    background-color: #8665f7;
+    transition: 0.5s;
+    color: white;
+}
 
+.logo{
+    min-width: 100px;
+    width: auto;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background: #8665f7;
+    margin: 0 0;
+    height: 80px;
+    width: 100%;
+    font-family: monospace;
+    border-top: black 2px solid;
+    border-bottom: black 2px solid;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: auto;
+    margin: 5px 5px;
+    margin-top: 31px;
+
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    vertical-align: middle;
+    margin: 2px;
+    border-radius: 3px;
+    text-decoration: none;
+
+}
+.active,a:hover{
+    background: #fff;
+    transition: .5s;
+    color: #8665f7;
+}
+
+.sesh1{
+    text-align: center;
+    text-decoration: underline;
+    font-family: monospace;
+    font-size: 300%;
+    color: #8665f7;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
 .table-box{
     margin: 50px auto;
 
@@ -283,18 +368,18 @@ padding: 0%;
     display: table;
     width: 80%;
     margin: 10px auto;
-    font-family: roboto;
+    font-family: monospace;
     background: transparent;
     padding: 12px auto;
     color: #555;
-    font-size: 13px;
+    font-size: 20px;
     box-shadow: 0 1px 4px rgba(0, 0, 50, 0.5);
 }
 .table-cell{
     display: table-cell;
     width: 30%;
     text-align: center;
-    padding: 4px 0;
+    padding: 10px ;
     border-right: 1px solid #d6d4d4;
     vertical-align: middle;
 }
@@ -304,7 +389,9 @@ padding: 0%;
     padding: 10px;
 }
 .link{
-    width: 10%;
+    min-width: 125px;
+    width: 125px;
+    
 }
 .head{
     background: #8665f7;
@@ -313,4 +400,3 @@ padding: 0%;
     font-size: 20px;
     font-weight: 1000;
 }
-
