@@ -26,6 +26,10 @@ var theme;
 var dmode = document.getElementById("dmode");
 dmode.onclick = function(){
   document.body.classList.toggle("darkmode");
+  menu.classList.remove("active");
+  menuBtn.classList.remove("hide");
+  cancelBtn.classList.remove("show");
+  body.classList.remove("disabledScroll");
   if(document.body.classList.contains("darkmode")){
     dmode.textContent="Light Mode";
     console.log("dmode");
