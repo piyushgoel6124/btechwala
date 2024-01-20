@@ -23,9 +23,9 @@ body{
 
 
 .content{
-  max-width: 90%;
-  margin: auto;
-  padding: 0px 30px;
+  max-width: 95%;
+  margin: 0px;
+  padding: 0px 20px;
   color: var(--navbar-color);
 }
 .navbar{
@@ -89,7 +89,7 @@ body{
 }
 .banner{
   height: 70vh;
-  background-color: var(--navbar-color);
+  background-color: black;
   background: url("pic/banner.jpg") no-repeat;
   background-size:cover;
   background-position: top;
@@ -97,7 +97,7 @@ body{
 }
 .banner2{
   height: 70vh;
-  background-color: var(--navbar-color);
+  background-color: black;
   background: url("pic/banner2.jpg") no-repeat;
   background-size:cover;
   background-position: top;
@@ -106,13 +106,13 @@ body{
 .banner3{
   height: 70vh;
   background-size:cover;
-  background-color: var(--navbar-color);
+  background-color: black;
   background: url("pic/abt.jpg") no-repeat;
   background-position: top;
   background-attachment: fixed;
 }
 .about{
-  padding: 40px 0;
+  padding: 20px 0;
 }
 .about .title{
   font-size: 50px;
@@ -239,30 +239,30 @@ body{
 
 }
 .table-box{
-  margin: 40px auto;
+  margin: 40px 0px;
   vertical-align: middle;
+  /* border: #1b1b1b solid 1px; */
 
 }
 .table-row{
   display: table;
-  width: 80%;
+  width: 90%;
   margin: 10px auto;
-  padding: 12px auto;
+  padding: 10px auto;
+  padding-right: 0px;
   color: var(--navbar-color);
-  font-size: 20px;
+  font-size: 18px;
   box-shadow: 0 2px 5px var(--tableboxshadow-color);
   border-radius: 5px;
 }
 .table-cell{
   display: table-cell;
-  width: 30%;
   text-align: center;
   padding: 10px ;
-  border-right: 1px solid var(--navbar-color);
+  /* border-right: 1px solid var(--navbar-color); */
   vertical-align: middle;
 }
 .tblname{
-  width: 70%;
   text-align: left;
   margin-left: 10px;
   padding: 10px;
@@ -270,7 +270,6 @@ body{
   vertical-align: middle;
 }
 .tbllink{
-  min-width: 150px;
   width: 125px;
   align-items: center;
   vertical-align: middle;
@@ -288,8 +287,7 @@ body{
 }
 
 .dlbtn{
-  width: 80%;
-  max-width: 120px;
+  width: 120px;
   height: 30px;
   cursor: pointer;
   color: var(--background-color);
