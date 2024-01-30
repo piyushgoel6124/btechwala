@@ -88,7 +88,9 @@ body{
   text-shadow: 0 0 10px red;
 }
 .banner{
-  height: 70vh;
+  width: 100vw;
+  height: 50vw;
+  max-height: 70vh;
   background-color: black;
   background: url("pic/banner.jpg") no-repeat;
   background-size:cover;
@@ -96,7 +98,9 @@ body{
   background-attachment: fixed;
 }
 .banner2{
-  height: 70vh;
+  width: 100vw;
+  height: 50vw;
+  max-height: 70vh;
   background-color: black;
   background: url("pic/banner2.jpg") no-repeat;
   background-size:cover;
@@ -104,7 +108,9 @@ body{
   background-attachment: fixed;
 }
 .banner3{
-  height: 70vh;
+  width: 100vw;
+  height: 50vw;
+  max-height: 70vh;
   background-size:cover;
   background-color: black;
   background: url("pic/abt.jpg") no-repeat;
@@ -178,13 +184,13 @@ body{
     top: 0;
     right: -100%;
     height: 100vh;
-    width: 300px;
+    width: 100vw;
     background: #1b1b1b;
     display: block;
     padding: 40px 0;
     text-align: center;
     clip-path: circle(25px at calc(100% - 55px) calc(0% + 50px));
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
   }
   .navbar.sticky .menu-list{
     clip-path: circle(25px at calc(100% - 55px) calc(0% + 35px));
@@ -199,6 +205,12 @@ body{
   .navbar .menu-list li a{
     font-size: 23px;
   }
+  
+  .banner, .banner2, .banner3 {
+    background-size: 100vw;
+    height: 50vw;
+  }
+
 }
 .grpbtn{
   min-width: 200px;
