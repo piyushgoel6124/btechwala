@@ -49,7 +49,7 @@ if (Gettheme === "d") {
   dmode.textContent = "Light Mode";
 }
 var linkElement = document.getElementById('howtodownload');
-linkElement.href = 'https://www.youtube.com/shorts/PQ_Qf6K-nl8';
+linkElement.href = 'https://youtu.be/9bJlsl8fcNo?si=BbfbHePSZbD4PGjV';
 
 function createCircularButton() {
   var button = document.createElement('a');
